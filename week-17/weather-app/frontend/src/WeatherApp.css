@@ -1,0 +1,146 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 20px;
+  background-color: rgb(137, 170, 237);
+  overflow: hidden;
+}
+
+.weather {
+  width: 380px;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 0px auto;
+  text-align: center;
+  color: white;
+  background: linear-gradient(130deg, rgb(86, 86, 235), rgb(5, 5, 199));
+  height: 87%;
+  overflow: hidden;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input {
+  border: none;
+  outline: 0;
+  padding: 12px 25px;
+  font-size: 18px;
+  background-color: rgb(222, 237, 243);
+  color: black;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 12px;
+}
+.search button {
+  border: none;
+  outline: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.search button img {
+  width: 20px;
+}
+.winfo .icon {
+  margin-top: 20px;
+  width: 170px;
+}
+.winfo h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.winfo h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  margin-top: 30px;
+}
+.details .col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.details .col img {
+  width: 45px;
+  margin-right: 10px;
+}
+.humidity,
+.wind {
+  font-size: 27px;
+}
+.humidity p,
+.wind p {
+  margin: 0px;
+}
+.error {
+  color: rgb(235, 169, 169);
+  text-align: left;
+  margin-left: 10px;
+}
+
+.filter-button {
+  background-color: rgb(137, 170, 237);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  align-self: center;
+  font-weight: 600;
+}
+
+.filtered-forecast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.filter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 40px;
+  height: 100px;
+  gap: 20px;
+}
+
+.filter-control {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-input {
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 5px;
+  background-color: rgb(137, 170, 237);
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: 500;
+  width: 150px;
+  align-self: start;
+}
