@@ -18,7 +18,7 @@ A simple weather application that provides current weather information for a spe
 1. Clone the repository:
 
    ```bash
-   git clone <Add url once you are done!!>
+   git clone <https://github.com/evilieswithin/p9-vishal-evilieswithin/tree/master/week-17/weather-app>
 
 2. Navigate to the project directory:
     
