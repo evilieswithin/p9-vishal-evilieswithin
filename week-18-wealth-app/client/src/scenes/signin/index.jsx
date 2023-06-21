@@ -26,7 +26,7 @@ const SignIn = () => {
     if (user.user && user.status === 'ok') {
       localStorage.setItem('user', JSON.stringify(user.user));
       alert('Login Successful');
-      window.location.href = '/dashboard';
+      window.location.href = '/';
     } else {
       alert('Login Failed, Please check username & password / sign up');
     }
